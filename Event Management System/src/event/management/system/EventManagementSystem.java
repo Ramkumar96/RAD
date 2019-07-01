@@ -1,21 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package event.management.system;
+import java.sql.*;
 
-/**
- *
- * @author Ram
- */
+
 public class EventManagementSystem {
-
-    /**
-     * @param args the command line arguments
-     */
+    private static final String Username = "root";
+    private static final String Password = "";
+    private static final String Conn_String = "jdbc:mysql://localhost:8889/rad";
     public static void main(String[] args) {
-        // TODO code application logic here
+        Connection Conn = null;
+        
+        try {
+            Conn = DriverManager.getConnection(Conn_String,Username,Password);
+            System.out.println("Connected");
+            Statement stmt = (Statement) Conn.createStatement();
+            int no_participants = 3;
+            String place = "a";
+            String services = "s";
+            int cost = 33;
+        } catch (Exception e) {
+            System.err.println(e);
+        }
+
     }
-    
+
 }

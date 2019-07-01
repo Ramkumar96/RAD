@@ -53,16 +53,16 @@
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jButton1" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
-                              <Component id="jButton5" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
-                              <Component id="jButton2" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
-                              <Component id="jButton3" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
+                              <Component id="Birthdauy_Btn" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
+                              <Component id="Wedding_btn" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
+                              <Component id="WeddingAnniversary_btn" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
+                              <Component id="AwardCeromony_btn" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jButton7" min="-2" pref="192" max="-2" attributes="0"/>
-                              <Component id="jButton6" min="-2" pref="192" max="-2" attributes="0"/>
-                              <Component id="jButton4" min="-2" pref="192" max="-2" attributes="0"/>
+                              <Component id="FamilyEvents_btn" min="-2" pref="192" max="-2" attributes="0"/>
+                              <Component id="BeachParty_btn" min="-2" pref="192" max="-2" attributes="0"/>
                               <Component id="jButton8" min="-2" pref="192" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="37" max="32767" attributes="0"/>
@@ -87,22 +87,22 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jButton5" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
-                              <Component id="jButton4" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="Wedding_btn" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="BeachParty_btn" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jButton1" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="Birthdauy_Btn" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
                               <Component id="jButton8" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jButton2" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
-                              <Component id="jButton6" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="WeddingAnniversary_btn" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="FamilyEvents_btn" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jButton3" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="AwardCeromony_btn" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
                               <Component id="jButton7" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
                           </Group>
                       </Group>
@@ -155,7 +155,7 @@
             </Component>
           </SubComponents>
         </Container>
-        <Component class="javax.swing.JButton" name="jButton1">
+        <Component class="javax.swing.JButton" name="Birthdauy_Btn">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="71" green="cc" red="2e" type="rgb"/>
@@ -169,10 +169,10 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Birthdauy_BtnActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton2">
+        <Component class="javax.swing.JButton" name="WeddingAnniversary_btn">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="71" green="cc" red="2e" type="rgb"/>
@@ -186,10 +186,10 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="WeddingAnniversary_btnActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton3">
+        <Component class="javax.swing.JButton" name="AwardCeromony_btn">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="71" green="cc" red="2e" type="rgb"/>
@@ -203,10 +203,10 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AwardCeromony_btnActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton4">
+        <Component class="javax.swing.JButton" name="BeachParty_btn">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="71" green="cc" red="2e" type="rgb"/>
@@ -220,10 +220,10 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BeachParty_btnActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton5">
+        <Component class="javax.swing.JButton" name="Wedding_btn">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="71" green="cc" red="2e" type="rgb"/>
@@ -237,10 +237,10 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Wedding_btnActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton6">
+        <Component class="javax.swing.JButton" name="FamilyEvents_btn">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="71" green="cc" red="2e" type="rgb"/>
@@ -254,7 +254,7 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FamilyEvents_btnActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jButton7">
